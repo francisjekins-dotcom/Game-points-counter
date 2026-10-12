@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Point Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div id="home">
+            <h3>HOME</h3>
+            <p id="home-score"></p>
+            <div class="btn">
+                <button onclick="addOneHome()">+1</button>
+                <button onclick="addTwoHome()">+2</button>
+                <button onclick="addThreeHome()">+3</button>
+            </div>
+        </div>
+        <div id="away">
+            <h3>AWAY</h3>
+            <p id="away-score"></p>
+            <div class="btn">
+                <button onclick="addOneAway()">+1</button>
+                <button onclick="addTwoAway()">+2</button>
+                <button onclick="addThreeAway()">+3</button>
+            </div>
+        </div>
+        <div class="reset">
+            <button onclick="resetHome()">Reset Home</button>
+            <button onclick="resetAway()">Reset Away</button>
+            <button onclick="resetAll()"> Reset All</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
