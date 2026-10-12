@@ -63,3 +63,6 @@ button{
     justify-content: center;
     align-items: center;
 }
+.reset button {
+    color: darkred;
+}
